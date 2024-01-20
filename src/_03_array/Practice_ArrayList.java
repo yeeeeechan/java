@@ -11,7 +11,7 @@ public class Practice_ArrayList {
 
         while (true) {
             System.out.println("문자를 입력해 주세요. : ");
-            String word = sc.next();
+            String word = sc.nextLine();
             chat.add(word);
 
             if (Objects.equals(word, "exit")) {
@@ -21,5 +21,6 @@ public class Practice_ArrayList {
                 break;
             }
         }
+        sc.close();
     }
 }
